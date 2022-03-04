@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap');
+
+p{font-family: 'Roboto', sans-serif;font-size: 2rem;}
+h2{font-family: 'Love Ya Like A Sister', cursive;font-size: 4rem;}
+h3{font-size: 3rem;font-family: 'Love Ya Like A Sister', cursive;}
+
+/* LE HEADER !!! --------------------------------------------------------------- */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.liens{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.liens a{
+    text-decoration: none;
+    color: #166668;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* PREMIERE ARTICLE SOLEIL ! ---------------------------------------------------------------------------------------- */
+
+.amiSoleil{
+    background-image: url("/assets/img/plage.svg");
+    background-position: center;
+    background-size: cover;
+    padding: 10rem;
+    padding-left: 15rem;
+}
+
+.amiSoleil article{
+    background-color: white;
+    width: 30%;
+    border-radius: 30px;
+    padding: 3rem;
+}
+
+.amiSoleil{color: #FFA180;}
+
+.amiSoleil article h1{font-family: 'Love Ya Like A Sister', cursive;font-size: 6.5rem;}
+
+.amiSoleil p{padding: 2rem; padding-left: 0rem;}
+/* PARTIE GARANTIE ! --------------------------------------------------------------------------------------------- */
+.garantie{padding: 9rem;display: flex;}
+/* GARANTIE GAUCHE -------------------------------------------------- */
+
+.garantieG{width: 55%;}
+
+.garantie{color: #6AC7CE;}
+
+.garantieG p{padding-top: 3rem;}
+
+/* GARANTIE DROITE ------------------------------------------------------------- */
+
+.garantieD{
+    background-image: url(/assets/img/femme-uv-anime.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 6rem;
+}
+
+.sousgD{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sousgD h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.sousgD div{
+    border-radius: 30px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.sousgD div p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+
+.UV{color: #D24D5C;}
+.divUV{background-color: #D24D5C;}
+
+.d65{color: #D86E4D;}
+.div65{background-color: #D86E4D;}
+
+.h3{color: #EABF3A;}
+.div3h{background-color: #EABF3A;}
+
+/* PROTECTION ---------------------------------------------------------------------------------- */
+
+.protection{
+    background-image: url(/assets/img/mer-ciel.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 7rem;
+    padding-bottom: 0rem;
+}
+
+.protection{color: #166668;}
+
+.protection article{display: flex;}
+
+.creme{width: 65%;}
+
+.protectionDiv{
+    width: 25%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 2rem;
+    margin-left: 2rem;
+}
+
+.protectionDiv p{padding-bottom: 2rem;}
+
+.bandeau{
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+    margin-left: 10%;
+    width: 80%;
+}
+
+/* SOUTIEN ------------------------------------------------------------------------------------------ */
+
+.soutien{
+    margin-top: -5rem;
+    background-color: #FFE07B;
+    background-image: url(/assets/img/decors-bleu.svg);
+    background-repeat: no-repeat;
+    background-position: 30% 12rem;
+}
+
+.textsoutien{
+    width: 41%;
+    margin-left: 40%;
+    padding-top: 17rem;
+}
+
+.soutien{color: #DF3502;}
+
+.soutien p{padding-top: 2rem;}
+
+.imagesoutien{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.imagesoutien img{
+    width: 80%;
+    place-self: center;
+}
+
+/* RESPECT ------------------------------------------------------------------------------------------ */
+
+.respect{
+    background-image: url(/assets/img/decors-jaune.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 12rem;
+    padding: 5rem;
+}
+
+.respect{color: #6AC7CE;}
+
+.respect h3{
+    padding-top: 5rem;
+    margin-left: 25%;
+}
+
+.respect h2{
+    margin-left: 25%;
+    margin-bottom: 5rem;
+}
+
+.respect article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.respect article img{
+    width: 80%;
+    place-self: center;
+}
+
+.respect p{
+    margin-left: 50%;
+    padding-bottom: 2rem;
+}
+
+/* FOOTER ------------------------------------------------------------------------------------------ */
+
+.footop{
+    background-color: #9DDFD3;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contact{
+    display: flex;
+    align-content: space-between;
+}
+
+.contact div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #166668;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+.mail h2{
+    color: #166668;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.mail p{
+    color: #166668;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-right: 25rem;
+    margin-bottom: 2rem;
+}
+
+.mail input{
+    background-color: #9DDFD3;
+    border: 1px solid white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #166668;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mail button{
+    background-color: #6AC7CE;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footbot{background-color: #FFE07B;padding: 2.5rem;}
+
+.footbot p{
+    color: #166668;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* HEADER PHONE !!!! -------------------------------------------------------------------------- */
+
+.headerphone{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5rem;
+    width: 100%;
+    display: none;
+}
+
+.headerphone div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerphone img{width: 60%;}
+
+.headerphone h4{
+    color: #166668;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+
+.headerphone a{text-align: center;}
+
+.soleilphone{margin-top: -0.3rem;}
+
+/* MEDIA ---------------------------------------------------------------------------------------------------- */
+/* MEDIA ---------------------------------------------------------------------------------------------------- */
+/* MEDIA ---------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1650px){
+    .sousgD{width: 50%;}
+    .amiSoleil article{width: 60%;}
+}
+
+@media (max-width: 1500px){
+    .creme{width: 55%;padding-top: 0rem;}
+    .protectionDiv{width: 35%;}
+    .bandeau{margin-bottom: 1rem;}
+}
+
+@media (max-width: 1400px){
+    .liens{width: 80%;}
+    .textsoutien{width: 51%;margin-left: 30%;}
+    .footop{grid-template-columns: 40% 40%;}
+    .mail p{margin-right: 6rem;}
+}
+
+@media (max-width: 1250px){
+    .amiSoleil article{width: 60%;}
+    .amiSoleil{padding-left: 8rem;}
+    .garantieG{padding-top: 0rem;padding-bottom: 0rem;}
+    .sousgD{width: 60%; margin-right: -5rem; margin-top: 3rem;}
+    .garantieG{width: 60%;padding-right: 2rem;}
+    .protectionDiv{width: 45%;padding: 1rem;}
+    .creme{width: 50%;}
+    .bandeau{width: 90%;margin-left: 5%;}
+    .textsoutien{width: 70%;margin-left: 10%;padding-top: 5rem;}
+    .imagesoutien{width: 100%;margin-left: 0%;padding-top: 0rem;}
+    .respect p{margin-left: 10%;}
+    .footop{grid-template-columns: 25% 40%;}
+}
+
+@media (max-width: 1000px){
+    .liens{width: 100%;justify-content: space-around;}
+    .footop{grid-template-columns: 100%;}
+    .contact{margin-top: 2rem;}
+    .creme{width: 90%;padding-bottom: 5rem;}
+    .protectionDiv{width: 80%;}
+    .protection article{flex-direction: column;}
+    .amiSoleil{padding-left: 5rem;}
+    .amiSoleil article{width: 85%;}
+    .garantieG{padding-right: 0rem;}
+    .garantie{padding: 2rem;}
+}
+
+@media (max-width: 900px){
+    header{position:fixed; background-color: white; width: 100%;}
+    .liens{display: none;}
+    .logo{width: 10%;}
+    .headerphone{display: flex; position: fixed; bottom: 0;}
+}
+
+@media (max-width: 800px){
+    .amiSoleil article{width: 90%;}
+    .amiSoleil article h1{font-size: 4rem;}
+    h2{font-size: 3rem;}
+    h3{font-size: 2rem;}
+    .amiSoleil article p{font-size: 1.4rem;}
+    .garantie{padding: 2rem;flex-direction: column;}
+    .garantieG{width: 100%;padding-top: 1rem;padding-bottom: 0rem;padding-right: 0rem;}
+    .garantieD{width: 90%;}
+    .contact{flex-direction: column;align-content: left;}
+    .contact div{margin-left: 1rem}
+    .creme{width: 100%;margin-left: 1rem;}
+    .protectionDiv{width: 100%;margin-left: -1rem;}
+    .bandeau{width: 100%; margin-left: 0rem;}
+    .textsoutien{width: 90%;margin-left: 5%;padding-top: 6rem;}
+    .soutien h3{font-size: 2rem;}
+    .soutien h2{font-size: 3rem;}
+    .soutien p{font-size: 1.3rem;margin-bottom: 3rem;}
+    .protection{padding: 2rem;padding-bottom: 0rem;}
+    .imagesoutien{grid-template-columns: 1fr 1fr 1fr;padding-top: 1rem;}
+    .imagesoutien img{width: 60%;margin-bottom: 1rem;}
+    .respect{padding: 1rem;}
+    .respect h3{font-size: 2rem;padding-top: 2rem;margin-left: 1rem;}
+    .respect h2{font-size: 3rem;margin-left: 1rem;margin-bottom: 3rem;}    
+    .respect article{grid-template-columns: 1fr 1fr;margin-bottom: 2rem;}
+    .respect article img{width: 60%;place-self: center;}    
+    .respect p{font-size: 1.5rem;margin-left: 2rem;padding-bottom: 2rem;}
+    .protection h2{font-size: 3rem;padding-top: 0.5rem;}
+    .protectionDiv p{font-size: 1.3rem;padding-top: 1rem;padding-bottom: 1rem;}
+    .garantieG p{padding-bottom: 1rem;font-size: 1.3rem;}
+    .garantieD{padding-right: 2rem;}
+    .headerphone h4{font-size: 0.7rem;margin-top: 0.2rem;}
+    .sousgD{width: 60%;margin-right: 0rem;}
+}
+
+@media (max-width: 500px){
+    .amiSoleil article{width: 82%;}
+    .respect h3{padding-top: 2rem;margin-left: 1rem;}
+    .respect h2{margin-left: 1rem;margin-bottom: 3rem;}
+    h2{font-size: 2.2rem;}
+    h3{font-size: 1.6rem;}
+    .soutien h2{font-size: 2rem;}
+    .soutien h3{font-size: 1.5rem;}
+    .sousgD{width: 80%; margin-right: -2.4rem;}
+    .headerphone h4{font-size: 0.5rem; margin-top: 0.2rem;}
+    .mail input{padding: 0.2rem; font-size: 1.5rem;}
+    .mail button{padding: 0.2rem; font-size: 1rem;}
+    .footop{padding: 1rem;}
+    
+    .amiSoleil{
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: 4rem;
+    }
+    .garantieD{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 2rem;
+    }
+}    
