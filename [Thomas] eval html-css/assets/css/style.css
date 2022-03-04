@@ -382,7 +382,7 @@ header{
     .amiSoleil article h1{font-size: 4rem;}
     h2{font-size: 3rem;}
     h3{font-size: 2rem;}
-    .amiSoleil article p{font-size: 1.4rem;}
+    p{font-size: 1.4rem;}
     .garantie{padding: 2rem;flex-direction: column;}
     .garantieG{width: 100%;padding-top: 1rem;padding-bottom: 0rem;padding-right: 0rem;}
     .garantieD{width: 90%;}
@@ -392,20 +392,18 @@ header{
     .protectionDiv{width: 100%;margin-left: -1rem;}
     .bandeau{width: 100%; margin-left: 0rem;}
     .textsoutien{width: 90%;margin-left: 5%;padding-top: 6rem;}
-    .soutien h3{font-size: 2rem;}
-    .soutien h2{font-size: 3rem;}
     .soutien p{font-size: 1.3rem;margin-bottom: 3rem;}
     .protection{padding: 2rem;padding-bottom: 0rem;}
     .imagesoutien{grid-template-columns: 1fr 1fr 1fr;padding-top: 1rem;}
     .imagesoutien img{width: 60%;margin-bottom: 1rem;}
     .respect{padding: 1rem;}
-    .respect h3{font-size: 2rem;padding-top: 2rem;margin-left: 1rem;}
-    .respect h2{font-size: 3rem;margin-left: 1rem;margin-bottom: 3rem;}    
+    .respect h3{padding-top: 2rem;margin-left: 1rem;}
+    .respect h2{margin-left: 1rem;margin-bottom: 3rem;}    
     .respect article{grid-template-columns: 1fr 1fr;margin-bottom: 2rem;}
     .respect article img{width: 60%;place-self: center;}    
-    .respect p{font-size: 1.5rem;margin-left: 2rem;padding-bottom: 2rem;}
-    .protection h2{font-size: 3rem;padding-top: 0.5rem;}
-    .protectionDiv p{font-size: 1.3rem;padding-top: 1rem;padding-bottom: 1rem;}
+    .respect p{margin-left: 2rem;padding-bottom: 2rem;}
+    .protection h2{padding-top: 0.5rem;}
+    .protectionDiv p{padding-top: 1rem;padding-bottom: 1rem;}
     .garantieG p{padding-bottom: 1rem;font-size: 1.3rem;}
     .garantieD{padding-right: 2rem;}
     .headerphone h4{font-size: 0.7rem;margin-top: 0.2rem;}
@@ -414,12 +412,10 @@ header{
 
 @media (max-width: 500px){
     .amiSoleil article{width: 82%;}
-    .respect h3{padding-top: 2rem;margin-left: 1rem;}
-    .respect h2{margin-left: 1rem;margin-bottom: 3rem;}
+    .respect h3{margin-left: 1rem;}
+    .respect h2{margin-bottom: 3rem;}
     h2{font-size: 2.2rem;}
     h3{font-size: 1.6rem;}
-    .soutien h2{font-size: 2rem;}
-    .soutien h3{font-size: 1.5rem;}
     .sousgD{width: 80%; margin-right: -2.4rem;}
     .headerphone h4{font-size: 0.5rem; margin-top: 0.2rem;}
     .mail input{padding: 0.2rem; font-size: 1.5rem;}
